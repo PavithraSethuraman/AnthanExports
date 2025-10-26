@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
-  publish = ".netlify/output"
-  functions = ".netlify/functions"
+  publish = ".netlify/output"          # plugin will generate this
+  functions = ".netlify/functions"    # SSR/API routes
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
