@@ -4,31 +4,31 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color scheme for Anthan Exports - navy blue, gold, and white theme */
-  --background: oklch(0.99 0.005 240);
-  --foreground: oklch(0.25 0.02 240);
+  /* Updated theme for Anthan Exports - professional dark blue, white, gold accents */
+  --background: oklch(0.99 0 0);
+  --foreground: oklch(0.2 0.02 250);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.25 0.02 240);
+  --card-foreground: oklch(0.2 0.02 250);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.25 0.02 240);
-  --primary: oklch(0.28 0.08 250);
-  --primary-foreground: oklch(0.99 0.005 240);
-  --secondary: oklch(0.65 0.15 75);
-  --secondary-foreground: oklch(0.99 0.005 240);
-  --muted: oklch(0.95 0.005 240);
-  --muted-foreground: oklch(0.5 0.02 240);
-  --accent: oklch(0.65 0.15 75);
-  --accent-foreground: oklch(0.99 0.005 240);
+  --popover-foreground: oklch(0.2 0.02 250);
+  --primary: oklch(0.25 0.05 250);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.95 0.01 250);
+  --secondary-foreground: oklch(0.2 0.02 250);
+  --muted: oklch(0.96 0.005 250);
+  --muted-foreground: oklch(0.5 0.01 250);
+  --accent: oklch(0.65 0.15 85);
+  --accent-foreground: oklch(0.15 0.02 250);
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.99 0.005 240);
-  --border: oklch(0.9 0.005 240);
-  --input: oklch(0.9 0.005 240);
-  --ring: oklch(0.65 0.15 75);
-  --chart-1: oklch(0.28 0.08 250);
-  --chart-2: oklch(0.65 0.15 75);
-  --chart-3: oklch(0.5 0.08 240);
-  --chart-4: oklch(0.75 0.12 70);
-  --chart-5: oklch(0.35 0.06 245);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.9 0.005 250);
+  --input: oklch(0.9 0.005 250);
+  --ring: oklch(0.65 0.15 85);
+  --chart-1: oklch(0.25 0.05 250);
+  --chart-2: oklch(0.65 0.15 85);
+  --chart-3: oklch(0.5 0.08 250);
+  --chart-4: oklch(0.7 0.12 85);
+  --chart-5: oklch(0.35 0.06 250);
   --radius: 0.5rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -41,30 +41,30 @@
 }
 
 .dark {
-  --background: oklch(0.15 0.02 240);
-  --foreground: oklch(0.95 0.005 240);
-  --card: oklch(0.2 0.02 240);
-  --card-foreground: oklch(0.95 0.005 240);
-  --popover: oklch(0.2 0.02 240);
-  --popover-foreground: oklch(0.95 0.005 240);
-  --primary: oklch(0.65 0.15 75);
-  --primary-foreground: oklch(0.15 0.02 240);
-  --secondary: oklch(0.35 0.08 250);
-  --secondary-foreground: oklch(0.95 0.005 240);
-  --muted: oklch(0.25 0.02 240);
-  --muted-foreground: oklch(0.65 0.005 240);
-  --accent: oklch(0.65 0.15 75);
-  --accent-foreground: oklch(0.15 0.02 240);
+  --background: oklch(0.15 0.02 250);
+  --foreground: oklch(0.98 0 0);
+  --card: oklch(0.18 0.02 250);
+  --card-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.18 0.02 250);
+  --popover-foreground: oklch(0.98 0 0);
+  --primary: oklch(0.98 0 0);
+  --primary-foreground: oklch(0.2 0.02 250);
+  --secondary: oklch(0.25 0.03 250);
+  --secondary-foreground: oklch(0.98 0 0);
+  --muted: oklch(0.22 0.02 250);
+  --muted-foreground: oklch(0.65 0.01 250);
+  --accent: oklch(0.65 0.15 85);
+  --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.95 0.005 240);
-  --border: oklch(0.3 0.02 240);
-  --input: oklch(0.3 0.02 240);
-  --ring: oklch(0.65 0.15 75);
-  --chart-1: oklch(0.28 0.08 250);
-  --chart-2: oklch(0.65 0.15 75);
-  --chart-3: oklch(0.5 0.08 240);
-  --chart-4: oklch(0.75 0.12 70);
-  --chart-5: oklch(0.35 0.06 245);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.25 0.03 250);
+  --input: oklch(0.25 0.03 250);
+  --ring: oklch(0.65 0.15 85);
+  --chart-1: oklch(0.5 0.08 250);
+  --chart-2: oklch(0.65 0.15 85);
+  --chart-3: oklch(0.7 0.1 250);
+  --chart-4: oklch(0.7 0.12 85);
+  --chart-5: oklch(0.6 0.09 250);
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.488 0.243 264.376);
@@ -76,9 +76,7 @@
 }
 
 @theme inline {
-  /* Using Inter font for professional, modern look */
-  --font-sans: "Inter", "system-ui", "sans-serif";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -124,9 +122,69 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
-/* Adding smooth scroll behavior */
-html {
-  scroll-behavior: smooth;
+/* Added custom animations for homepage */
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes gradient {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 1s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.8s ease-out;
+    animation-fill-mode: both;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+  }
 }

@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "lint": "eslint .",
     "start": "next start"
   },
   "dependencies": {
@@ -60,7 +61,6 @@
     "zod": "3.25.76"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^5.14.3",
     "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
     "@types/react": "^19",

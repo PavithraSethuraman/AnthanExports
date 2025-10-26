@@ -1,15 +1,17 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import { Navigation } from "@/components/navigation"
+import { Footer } from "@/components/footer"
 
-const inter = Inter({ subsets: ["latin"] })
+const _geist = Geist({ subsets: ["latin"] })
+const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Anthan Exports - Connecting Quality with the World",
-  description:
-    "International export company specializing in high-quality agricultural products, spices, textiles, and handcrafted goods.",
+  title: "Anthan Exports - Connecting the World with Quality Products",
+  description: "Leading international trading and export business providing quality products worldwide",
   generator: "v0.app",
 }
 
@@ -20,8 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-sans antialiased`}>
+      <body className={`font-sans antialiased`}>
+        <Navigation />
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>
